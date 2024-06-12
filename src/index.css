@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-muted-foreground {
+  @apply text-gray-600;
+}
+.breadcrumb-active {
+  @apply text-black;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-overlay_1 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.items-flex-between{
+  @apply flex flex-row justify-between items-center gap-2
+}
